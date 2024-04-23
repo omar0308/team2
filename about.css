@@ -1,0 +1,141 @@
+:root{
+    --blue: #14213d;
+    --black: #000000 ;
+    --beige: #fff8e1;
+    --gold: #fca311;
+    --grey: #2a2a2a;
+}
+@font-face{
+    font-family: "Cero";
+    src: url(Cero.woff) format("woff")
+}
+body{
+    background-image: url('images/bg.svg');
+    background-repeat: repeat;
+    z-index: 1;
+
+}
+
+.nav-link{
+    color:var(--blue);
+    font-family: "Cero";
+    font-weight: 700;
+    margin: 0 1vw 0 1vw;
+    border-bottom:1vw white solid;
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+}
+#a1{opacity: 0.5;}
+.nav-link:hover{
+    border-bottom:1vw var(--gold) solid;
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    color:var(--gold);
+    
+}
+.marking{
+    border: 1vw var(--blue) solid;
+    border-radius: 5px;
+    border-width: 0.2vw;
+    width: max-content;
+}
+.marker{
+    font-family: "Cero";
+    font-weight: 600;
+}
+.heading{
+    font-family: "Cero";
+    font-weight: 600;
+
+}
+.subt{
+    color: #2a2a2a;
+    font-weight: 500;
+    font-family: "Roboto";
+
+}
+#carind ul{
+    list-style-type: none;
+    width: 80%;
+    text-align: center;
+    font-family: "Cero";
+    font-weight: 700;
+
+}
+
+.progress-bar{
+    background-color:var(--blue);
+}
+.carousel-indicators{
+    display: none;
+    position: relative;
+}
+.date{ 
+    text-align: center;
+    display: block;
+    font-family: "Cero";
+    font-weight: 800;
+    color: var(--blue);
+    opacity: 1;
+    transform: translateY(-190%);
+}
+.card-title{
+    font-family: "Cero";
+    font-weight: 700;
+}
+.card-text{color:lightslategrey}
+.date::before {
+        display:block ;
+        content: '';
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        background-color: var(--blue);
+        border: 2px solid var(--blue);
+        transform: translateX(-10%);
+
+
+}
+.carousel-item{
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+
+}
+.team{border:0.2vw var(--blue) solid;
+    background-color: rgba(255, 255, 255,0.5);
+}
+
+.fa-brands{color:var(--blue);
+}
+.fa-brands:hover{color:var(--gold)}
+
+/* ==========================================
+    Footer
+  ========================================== */
+
+
+  #foot .text-small {
+    font-size: 0.9rem;
+}
+
+.list-unstyled li a{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#foot a:hover,
+#foot a:focus {
+    text-decoration: none;
+}
+
+
+footer {
+    background: #212529;
+}
+
+footer h5{font-family: "Cero";}
+/* ==========================================
+  ==========================================*/
+

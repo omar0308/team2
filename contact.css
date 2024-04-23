@@ -1,0 +1,157 @@
+/********
+https: //images.pexels.com/photos/593158/pexels-photo-593158.jpeg
+https: //images.pexels.com/photos/4790052/pexels-photo-4790052.jpeg
+https: //images.pexels.com/photos/7794362/pexels-photo-7794362.jpeg
+
+
+
+**********/
+
+:root{
+    --blue: #14213d;
+    --black: #000000 ;
+    --beige: #fff8e1;
+    --gold: #fca311;
+    --grey: #2a2a2a;
+}
+@font-face{
+    font-family: "Cero";
+    src: url(Cero.woff) format("woff")
+}
+
+.marking{
+    border: 1vw var(--blue) solid;
+    border-radius: 5px;
+    border-width: 0.2vw;
+    width: max-content;
+}
+.marker{
+    font-family: "Cero";
+    font-weight: 600;
+}
+
+body{
+    background-image: url('images/bg.svg');
+    background-repeat: repeat;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.contacter{font-family: "Cero";
+font-weight: 800;}
+/* ==========================================
+    Navbar
+  ========================================== */
+  .nav-link{
+    color:var(--blue);
+    font-family: "Cero";
+    font-weight: 700;
+    margin: 0 1vw 0 1vw;
+    border-bottom:1vw white solid;
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+}
+
+.nav-link:hover{
+    border-bottom:1vw var(--gold) solid;
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    color:var(--gold);}
+/* ==========================================
+ ==========================================*/
+
+.cont{
+    padding: 3vw;
+ 
+    
+}
+.conta{
+    font-family: 'Roboto'
+}
+.em{
+    color: #e69615;
+    
+}
+.ph{
+    color: rgb(23, 124, 192);
+    
+}
+.loc{
+    color: #fffffff0;
+    
+}
+.ema{
+    color: #ffffff;
+}
+
+.title{
+    color: aliceblue;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: "Cero";
+}
+
+
+
+/* ==========================================
+    Footer
+  ========================================== */
+
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+footer {
+    background: rgb(33, 37, 41);
+}
+
+.box1,.box2,.box3{
+    color:var(--blue);
+    font-family: "Cero";
+    font-weight: 700;
+}
+/* ==========================================
+    Footer
+  ========================================== */
+
+
+  #foot .text-small {
+    font-size: 0.9rem;
+}
+
+.list-unstyled li a{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#foot a:hover,
+#foot a:focus {
+    text-decoration: none;
+}
+
+
+footer {
+    background: #212529;
+}
+
+footer h5{font-family: "Cero";}
+/* ==========================================
+  ==========================================*/
+
+
+

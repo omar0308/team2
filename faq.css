@@ -1,0 +1,402 @@
+:root {
+    --blue: #14213d;
+    --black: #000000;
+    --beige: #fff8e1;
+    --gold: #fca311;
+    --grey: #2a2a2a;
+}
+
+@font-face {
+
+    font-family: "Cero";
+    src: url(Cero.woff) format("woff")
+}
+.heading,.accordion-button{
+    font-family: "Cero";
+    font-weight: 600;
+
+}
+
+* {
+    margin: 0
+}
+.marking{
+    border: 1vw var(--blue) solid;
+    border-radius: 5px;
+    border-width: 0.2vw;
+    width: max-content;
+}
+.marker{
+    font-family: "Cero";
+    font-weight: 600;
+}
+
+body{
+    background-image: url('images/bg.svg');
+    background-repeat: repeat;
+
+}
+.nav-link{
+    color:var(--blue);
+    font-family: "Cero";
+    font-weight: 700;
+    margin: 0 1vw 0 1vw;
+    border-bottom:1vw white solid;
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+}
+
+.nav-link:hover{
+    border-bottom:1vw var(--gold) solid;
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    color:var(--gold);}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.faq-heading {
+    height: 60vh;
+    padding-top: 25vh;
+}
+
+.button-back {
+    border-radius: 10px;
+    background-color: #14213d;
+    width: max-content;
+    height: max-content;
+    border: none;
+    padding: 0;
+    font-family: "Cero";
+}
+
+#button-front {
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+
+    transform: translate(-2px, -4px);
+
+    transition: transform 400ms;
+    border-color: #14213d;
+
+    color: #14213d;
+    border-width: 0.15vw;
+    font-weight: 800;
+
+}
+
+#button-front:hover {
+    transform: translate(0, 0);
+    transition: transform 80ms;
+}
+
+
+
+
+
+.FAQheading {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0%;
+    background-color: var(--blue);
+    filter: blur();
+    color: var(--gold);
+
+
+}
+
+.FAQtitle {
+
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    margin: 3%;
+
+}
+
+#question-body {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    border-top: none;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Roboto";
+}
+
+
+.question-item {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    filter: blur(0.3);
+    background-color: transparent;
+
+}
+
+.question-back {
+    border-radius: 10px;
+    background-color: var(--blue);
+    width: 100%;
+    border: none;
+    padding: 0;
+    filter: blur(0.8)
+}
+
+.question-front {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    height: max-content;
+    transform: translate(0, 0);
+    transition: transform 400ms;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    font-family: 'Roboto';
+    font-weight: 800;
+    filter: blur(0.8)
+}
+
+.question-front:hover {
+    transform: translate(-2px, -4px);
+    transition: transform 80ms;
+}
+
+
+
+
+#question-button {
+    justify-content: center;
+    align-items: center;
+    transition: none;
+    background-color: transparent;
+    color: var(--blue);
+    filter: blur(0.8)
+}
+
+.question-formore {
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+}
+
+.link-deco-off {
+    text-decoration: none;
+
+
+    padding: 0;
+}
+
+
+#question-button.collapsed {
+    background-color: white;
+    filter: blur(0.9);
+}
+
+#question-button.collapsed::after {
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+
+
+
+
+/* //////////////////////////////////////Rating Section/////////////////////////////////////////// */
+
+#item {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: transparent;
+    color: white;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+
+
+
+.rate-title {
+    font-family: 'Cero';
+    font-size: 3.5vw;
+}
+
+
+
+.checked {
+    color: var(--gold)
+}
+
+
+
+#rate-back {
+    border-radius: 10px;
+    background-color: #14213d;
+    width: max-content;
+    height: 80%;
+    border: none;
+    padding: 0;
+    font-family: "Cero";
+    margin-bottom: 10%;
+}
+
+#rate-front {
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    height: 100%;
+    transform: translate(0, 0);
+
+    transition: transform 400ms;
+    border: 1px solid grey;
+
+    color: #14213d;
+
+    font-weight: 800;
+    font-size: 1.3vw;
+}
+
+#rate-front:hover {
+    transform: translate(-2px, -4px);
+    transition: transform 80ms;
+
+
+}
+
+#rate-slide {
+    height: 70%;
+    width: 50%;
+}
+
+
+
+#rate-item {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 40vw;
+}
+
+#rate-name {
+    font-family: 'Cero';
+    font-size: 2vw;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+#rate-text {
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+
+
+
+
+.card-wrap {
+    position: relative;
+
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+}
+
+.card-wrap.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+
+
+.card__face--back {
+    transform: rotateY(180deg);
+}
+
+#rateImg {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 13vw;
+    aspect-ratio: 1;
+    transform: translateY(-50%);
+    border: 1px solid var(--blue);
+    margin-bottom: -20%;
+    max-width: 1000px;
+}
+
+@media (max-width: 1000px) {
+    #question-contact {
+        display: none;
+    }
+
+    #question-img {
+        display: none;
+    }
+
+    .question-container {
+        width: 80%;
+
+    }
+
+    #rate-back {
+
+        height: 100%;
+
+    }
+
+    #rate-inner {
+        padding: 0 !important;
+    }
+
+    #rate-item {
+
+        height: 50vw;
+    }
+}
+/* ==========================================
+    Footer
+  ========================================== */
+
+
+  #foot .text-small {
+    font-size: 0.9rem;
+}
+
+.list-unstyled li a{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#foot a:hover,
+#foot a:focus {
+    text-decoration: none;
+}
+
+
+footer {
+    background: #212529;
+}
+
+footer h5{font-family: "Cero";}
+/* ==========================================
+  ==========================================*/
+

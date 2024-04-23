@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    <link rel="stylesheet" href="news.css">
+    <script src="https://kit.fontawesome.com/9009c6999e.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="imagec/logo.png">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg mt-1 ">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-4" href="index.html">
+                <img width="50px" src="imagec/logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarcontent">
+                <ul class="navbar-nav mb-1 mx-auto">
+                    <li>
+                        <a class="nav-link "  href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="faq.html">F.A.Q</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            
+        </div>
+    </nav>
+    <!-- end of Navbar -->
+    <div class="d-flex align-items-center mx-auto marking mb-5 ps-3 pe-3">
+        <i class="fa-solid fa-newspaper"></i>
+        <div class="marker fs-6 ms-2 mt-1 mb-1">Our News</div>
+        
+    </div>
+    <section id="news" class="mb-5" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="100"
+    data-aos-offset="0">
+        
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active test" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" class="test" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row md  ">
+                            <div class="col-md-6">
+                                <div class="card" id="a1" onclick="exemple(this.id)">
+                                    <div>
+                                        <img class="card-img-top" src="imagec/-camera.jpg">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-dark text-bg-dark">Cyber</span>
+                                        <span> 5min to read</span>
+                                        <div>
+                                            <h5 class="card-title fs-3 mt-2"> Cybercriminals Are Selling Access to Chinese Surveillance Cameras:</h2>
+                                        </div>
+                                        <div class="row d-flex align-items-center">
+                                            <img class="img-fluid rounded col-2" src="images/aziz (2).jpg" >
+                                            <div class="col-10">
+                                                <div><strong>Aziz Boussarsar</strong></div>
+                                                <div>9 mars 2018</div>
+                                            </div>
+                                        </div> 
+                                    </div>      
+                                </div>  
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row mb-4">
+                                    <div class="card border-0" id="a2" onclick="exemple(this.id)">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-5">
+                                                <img class="img-fluid rounded-start" src="images/news2.jpg">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge badge-pill badge-dark text-bg-dark">Social Media</span>
+                                                    <span> 5min to read</span>
+                                                    <div  class="card-title mt-2">
+                                                        <h6> Twitter Whistleblower Complaint: The TL;DR Version:</h2>
+                                                    </div>
+                                                    <div class="row d-flex align-items-center">
+                                                        <img class="img-fluid rounded col-3" src="images/aziz (2).jpg" >
+                                                        <div class="col-8">
+                                                            <div><strong>Aziz Boussarsar</strong></div>
+                                                            <div>9 mars 2018</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4 mb-4">
+                                    <div class="card border-0" id="a3" onclick="exemple(this.id)">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-5">
+                                                <img class="img-fluid rounded-start" src="images/news3.jpg">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge badge-pill badge-dark text-bg-dark">AI</span>
+                                                    <span> 5min to read</span>
+                                                    <div>
+                                                        <h6 class="card-title mt-2">UK AI sector achieved record funding in Q2 2022:</h2>
+                                                    </div>
+                                                    <div class="row d-flex align-items-center">
+                                                        <img class="img-fluid rounded col-3" src="images/aziz (2).jpg" >
+                                                        <div class="col-8">
+                                                            <div><strong>Aziz Boussarsar</strong></div>
+                                                            <div>9 mars 2018</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>       
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="card border-0" id="a4" onclick="exemple(this.id)">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-5">
+                                                <img class="img-fluid rounded-start" src="imagec/tesla.jpg">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge badge-pill badge-dark text-bg-dark">AI</span>
+                                                    <span> 5min to read</span>
+                                                    <div>
+                                                        <h6 class="card-title">Tesla’s AI supercomputer tripped the power grid:</h2>
+                                                    </div>
+                                                    <div class="row d-flex align-items-center">
+                                                        <img class="img-fluid rounded col-3" src="images/aziz (2).jpg" >
+                                                        <div class="col-8">
+                                                            <div><strong>Aziz Boussarsar</strong></div>
+                                                            <div>9 mars 2018</div>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="carousel-item">
+                        <div class="row md d-flex align-items-center ">
+                            <div class="col-md-6">
+                                <div class="card" id="a5" class="card" onclick="exemple(this.id)">
+                                    <div>
+                                        <img class="card-img-top" src="imagec/amason.jpeg">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="badge badge-pill badge-dark text-bg-dark">Web</span>
+                                        <span> 5min to read</span>
+                                        <div>
+                                            <h5 class="card-title fs-3 mt-2"> Q&A: Felipe Chies, Amazon Web Services: Democratising ML:</h2>
+                                        </div>
+                                        <div class="row d-flex align-items-center">
+                                            <img class="img-fluid rounded col-2" src="images/aziz (2).jpg" >
+                                            <div class="col-10">
+                                                <div><strong>Aziz Boussarsar</strong></div>
+                                                <div>9 mars 2018</div>
+                                            </div>
+                                        </div> 
+                                    </div>      
+                                </div>  
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="row mb-4">
+                                    <div class="card border-0" id="a6" onclick="exemple(this.id)">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-5">
+                                                <img class="img-fluid rounded-start" src="imagec/vescode.jpeg">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge badge-pill badge-dark text-bg-dark">Cyber</span>
+                                                    <span> 5min to read</span>
+                                                    <div  class="card-title mt-2">
+                                                        <h6> API Security Project Identifies Top 10 Vulnerabilities</h2>
+                                                    </div>
+                                                    <div class="row d-flex align-items-center">
+                                                        <img class="img-fluid rounded col-3" src="images/aziz (2).jpg" >
+                                                        <div class="col-8">
+                                                            <div><strong>Aziz Boussarsar</strong></div>
+                                                            <div>9 mars 2018</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4 mb-4 ">
+                                    <div class="card border-0" id="a7" onclick="exemple(this.id)">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-5">
+                                                <img class="img-fluid rounded-start" src="imagec/vescode.jpeg">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge badge-pill badge-dark text-bg-dark">Web</span>
+                                                    <span> 5min to read</span>
+                                                    <div>
+                                                        <h6 class="card-title mt-2">VS Code Gets New JavaScript Debugger:</h2>
+                                                    </div>
+                                                    <div class="row d-flex align-items-center">
+                                                        <img class="img-fluid rounded col-3" src="images/aziz (2).jpg" >
+                                                        <div class="col-8">
+                                                            <div><strong>Aziz Boussarsar</strong></div>
+                                                            <div>9 mars 2018</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>       
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="card border-0" id="a8" onclick="exemple(this.id)">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-5">
+                                                <img class="img-fluid rounded-start" src="imagec/forum.jpg">
+                                            </div>
+                                            <div class="col-7">
+                                                <div class="card-body">
+                                                    <span class="badge badge-pill badge-dark text-bg-dark">Cyber</span>
+                                                    <span> 5min to read</span>
+                                                    <div>
+                                                        <h6 class="card-title">SUP'COM Annual Forum - 23rd edition:</h2>
+                                                    </div>
+                                                    <div class="row d-flex align-items-center">
+                                                        <img class="img-fluid rounded col-3" src="images/aziz (2).jpg" >
+                                                        <div class="col-8">
+                                                            <div><strong>Aziz Boussarsar</strong></div>
+                                                            <div>9 mars 2018</div>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+            
+        <div id="b1" class="fenetrehidden"> 
+            <div class="d-flex">
+                <div class="d-flex w-50 m-2 justify-content-start">
+                    <button type="button" class="button-back " id="liveToastBtn2">
+                        <span class="button-front p-2"> share </span>
+                    </button>
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Sup'it</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            This article has been shared to your feed.
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex w-50 m-2 justify-content-end">
+                    <button  id="c1" type="button" class="btn " onclick="exempleb(this.id)">
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            <h2 class="tit-news fs-3">Cybercriminals Are Selling Access to Chinese Surveillance Cameras</h2>
+            <div class=" row d-flex justify-content-around">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img class="img-fluid im-news rounded " src="imagec/-camera.jpg" alt="">
+                </div>
+                <div class="c-news col-md-8  pe-5 d-flex align-items-center">
+                    <p class="paranews text-justify">Tens of thousands of cameras have failed to patch a critical, 11-month-old
+                        CVE,
+                        leaving thousands of organizations
+                        exposed.
+                        New research indicates that over 80,000 Hikvision surveillance cameras in the world today
+                        are
+                        vulnerable to an 11
+                        month-old command injection flaw.
+                        Hikvision – short for Hangzhou Hikvision Digital Technology – is a Chinese state-owned
+                        manufacturer of video
+                        surveillance equipment. Their customers span over 100 countries (including the United
+                        States,
+                        despite the FCC labeling
+                        Hikvision “an unacceptable risk to U.S. national security” in 2019).
+                        Last Fall, a command injection flaw in Hikvision cameras was revealed to the world as
+                        CVE-2021-36260. The exploit was
+                        given a “critical” 9.8 out of 10 rating by NIST.
+                        Despite the severity of the vulnerability, and nearly a year into this story, over 80,000
+                        affected devices remain
+                        unpatched. In the time since, the researchers have discovered “multiple instances of hackers
+                        looking to collaborate on
+                        exploiting Hikvision cameras using the command injection vulnerability,” specifically in
+                        Russian
+                        dark web forums, where
+                        leaked credentials have been put up for sale.
+                        The extent of the damage done already is unclear. The authors of the report could only
+                        speculate
+                        that “Chinese threat
+                        groups such as MISSION2025/APT41, APT10 and its affiliates, as well as unknown Russian
+                        threat
+                        actor groups could
+                        potentially exploit vulnerabilities in these devices to fulfill their motives (which may
+                        include
+                        specific geo-political
+                        considerations
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="b2" class="fenetrehidden"> 
+            <div class="d-flex">
+                <div class="d-flex w-50 m-2 justify-content-start">
+                    <button type="button" class="button-back " id="liveToastBtn2">
+                        <span class="button-front p-2"> share </span>
+                    </button>
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3" >
+                    <div id="liveToast1" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Sup'it</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            This article has been shared to your feed.
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex w-50 m-2 justify-content-end">
+                    <button  id="c2" type="button" class="btn " onclick="exempleb(this.id)" >
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <h2 class="tit-news fs-3">Twitter Whistleblower Complaint: The TL;DR Version:</h2>
+            <div class=" row d-flex justify-content-around">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img class="im-news rounded" src="images/news2.jpg" alt="">
+                </div>
+                <div class="c-news col-md-8 pe-5 d-flex align-items-center">
+                    <p class="paranews">Twitter is blasted for security and privacy lapses by the company’s former
+                        head
+                        of security who alleges the social media
+                        giant’s actions amount to a national security risk.
+
+                        A recently surfaced 84-page whistleblower report filed with the US government by Twitter’s
+                        former head of security
+                        Peiter “Mudge” Zatko last month blasts his former employer for its alleged shoddy security
+                        practices and being out of
+                        compliance with an FTC order to protect user data.
+                        Twitter has responded alleging that Zatko is a “disgruntled employee” who was fired for poor
+                        performance and leadership.
+                        In a letter to employees Twitter’s CEO Parag Agrawal asserts that Zatko’s claims are a
+                        “false
+                        narrative that is riddled
+                        with inconsistencies and inaccuracies, and presented without important context.”
+                        Here is an abbreviated overview of the allegations and Twitter’s reaction.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="b3" class="fenetrehidden p-2"> 
+            <div class="d-flex">
+                <div class="d-flex w-50 m-2 justify-content-start">
+                    <button type="button" class="button-back " id="liveToastBtn2">
+                        <span class="button-front p-2"> share </span>
+                    </button>
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast2" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Sup'it</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            This article has been shared to your feed.
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex w-50 m-2 justify-content-end">
+                    <button  id="c3" type="button" class="btn " onclick="exempleb(this.id)" >
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <h2 class="tit-news fs-3">UK AI sector achieved record funding in Q2 2022 </h2>
+            <div class=" row d-flex justify-content-around ">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img class="im-news rounded" src="imagec/qatar.jpg" alt="">
+                </div>
+                <div class="c-news col-md-8 pe-5 d-flex align-items-center">
+
+                    <p class="paranews">New data from Tech Nation and Dealroom found that VC investment in UK AI
+                        companies hit a record in Q2 2022 and is on
+                        track to at least equal last year.
+                        Around 2,009 AI companies are based in the UK, the AI capital of Europe. Renowned companies
+                        include Graphcore,
+                        BenevolentAI, Darktrace, Wayve, and DeepMind.
+                        Last year saw a record investment of £6.6 billion flow into UK AI companies. In 2022 so far,
+                        £3.2 billion has been
+                        invested. Tech Nation notes that investment into AI firms is historically “loaded towards
+                        the
+                        end of the calendar year”
+                        and is on track to “at least equal” last year.
+                        A record-setting Q2 was achieved in 2022 with £746.93 million invested, which could be a
+                        good
+                        sign for the rest of the
+                        year. However, the widely-condemned economic policies set out by the new UK Prime Minister
+                        Liz
+                        Truss and Chancellor
+                        Kwasi Kwarteng last month have caused turmoil in the national economy.
+                        The IMF warned that the UK’s Mini Budget – which relies on the disproven idea of
+                        “trickle-down
+                        economics” – could have
+                        serious negative economic consequences. In particular, scrapping the higher tax rate for
+                        high
+                        earners led to Liz Truss
+                        being branded the “anti-Robin Hood” due to already struggling households footing the bill
+                        for
+                        tax cuts for the wealthy.
+                        The backlash forced a U-turn on the policy, which helped the pound regain some of its
+                        strength
+                        against the dollar after
+                        plunging to its lowest value since 1985. A speech by Liz Truss this week on maintaining her
+                        course has put further
+                        downside pressure on the pound. Today, credit rating agency Fitch downgraded its outlook for
+                        the
+                        UK from stable to
+                        negative, following a similar move from its peer S&P last week.
+                    </p>
+                </div>
+            </div> 
+        </div>
+        <div id="b4" class="fenetrehidden"> 
+            <div class="d-flex">
+                <div class="d-flex w-50 m-2 justify-content-start">
+                    <button type="button" class="button-back " id="liveToastBtn2">
+                        <span class="button-front p-2"> share </span>
+                    </button>
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast3" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Sup'it</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            This article has been shared to your feed.
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex w-50 m-2 justify-content-end">
+                    <button  id="c4" type="button" class="btn " onclick="exempleb(this.id)" >
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <h2 class="tit-news fs-3">Tesla’s AI supercomputer tripped the power grid</h2>
+            <div class=" row d-flex justify-content-around">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img class="im-news rounded" src="imagec/tesla.jpg" alt="">
+                </div>
+                <div class="c-news col-md-8 pe-5 d-flex align-items-center">
+
+                    <p class="paranews">Tesla’s purpose-built AI supercomputer ‘Dojo’ is so powerful that it tripped the
+                        power grid.
+                        Dojo was unveiled at Tesla’s annual AI Day last year but the project was still in its infancy.
+                        At AI Day 2022, Tesla
+                        unveiled the progress it has made with Dojo over the course of the year.
+                        The supercomputer has transitioned from just a chip and training tiles into a full cabinet.
+                        Tesla claims that it can
+                        replace six GPU boxes with a single Dojo tile, which it says is cheaper than one GPU box.
+                        Per tray, there are six Dojo tiles. Tesla claims that each tray is equivalent to “three to four
+                        full-loaded
+                        supercomputer racks”. Two trays can fit in a single Dojo cabinet with a host assembly.
+                        Such a supercomputer naturally has a large power draw. Dojo requires so much power that it
+                        managed to trip the grid in
+                        Palo Alto.
+                        “Earlier this year, we started load testing our power and cooling infrastructure. We were able
+                        to push it over 2 MW
+                        before we tripped our substation and got a call from the city,” said Bill Chang, Tesla’s
+                        Principal System Engineer for
+                        Dojo.
+                        In order to function, Tesla had to build custom infrastructure for Dojo with its own
+                        high-powered cooling and power
+                        system.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="b5" class="fenetrehidden"> 
+            <div class="d-flex">
+                <div class="d-flex w-50 m-2 justify-content-start">
+                    <button type="button" class="button-back " id="liveToastBtn2">
+                        <span class="button-front p-2"> share </span>
+                    </button>
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast4" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Sup'it</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            This article has been shared to your feed.
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex w-50 m-2 justify-content-end">
+                    <button  id="c5" type="button" class="btn " onclick="exempleb(this.id)" >
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <h2 class="tit-news fs-3">Q&A: Felipe Chies, Amazon Web Services: Democratising ML</h2>
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img class="im-news rounded" src="imagec/amason.jpeg" alt="">
+                </div>
+                <div class="c-news col-md-8 pe-5 d-flex align-items-center">
+                    <p class="paranews">Amazon Web Services (AWS), the leader in public cloud infrastructure now has
+                        more than 200 fully featured services,
+                        including compute, storage, databases, networking, analytics, robotics, Internet of Things
+                        (IoT), mobile, security,
+                        hybrid, virtual and augmented reality (VR and AR), media, application development, deployment,
+                        management, and machine
+                        learning and artificial intelligence (AI). For the latter, the message is clear: AWS wants to
+                        democratise ML
+                        technologies.
+                        AWS has the most comprehensive set of AI and Machine Learning services for all skill levels. The
+                        most well-known is
+                        arguably the platform Amazon SageMaker, a fully managed service that removes the heavy lifting,
+                        complexity, and
+                        guesswork from each step of the machine learning process, empowering everyday developers and
+                        scientists to successfully
+                        use machine learning. Since AWS launched SageMaker in 2017, the company has added more than 150
+                        capabilities and
+                        features, and already in December 2020 at that year’s re:Invent – when the first machine
+                        learning keynote took place –
+                        the message was simple.
+                        As SiliconAngle put it, the company’s ‘overall aim is to enable machine learning to be embedded
+                        into most applications
+                        before the decade is out by making it accessible to more than just experts.’
+                        With the AI & Big Data Expo, taking place in Amsterdam on September 20-21, AI News spoke with
+                        Felipe Chies, senior
+                        business development manager for AI and ML for the Benelux at AWS. Chies has strong experience
+                        in the field, having
+                        co-founded semiconductor startup Axelera AI, which has since been incubated by Bitfury.
+                        Chies is speaking on the subject of accelerating innovation with no-code and low-code machine
+                        learning and AI News spoke
+                        with him about key use cases, industries, and the different AWS products
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="b6" class="fenetrehidden"> 
+            <div class="d-flex">
+                <div class="d-flex w-50 m-2 justify-content-start">
+                    <button type="button" class="button-back " id="liveToastBtn2">
+                        <span class="button-front p-2"> share </span>
+                    </button>
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast5" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Sup'it</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            This article has been shared to your feed.
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex w-50 m-2 justify-content-end">
+                    <button  id="c6" type="button" class="btn " onclick="exempleb(this.id)" >
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <h2 class="tit-news fs-3">API Security Project Identifies Top 10 Vulnerabilities</h2>
+            <div class=" row d-flex justify-content-around">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img class="im-news rounded" src="images/news6.jpg" alt="">
+                </div>
+                <div class="c-news col-md-8 pe-5 d-flex align-items-center">
+                    <p class="paranews"> Broken object level authorization" is the number one API vulnerability that
+                        attackers can exploit to gain access to an
+                        organization's data, according to a report from the independent Open Web Application Security
+                        Project (OWASP).
+                        "Attackers can exploit API endpoints that are vulnerable to broken object level authorization by
+                        manipulating the ID of
+                        an object that is sent within the request," according to the OWASP API Security Top 10 report.
+                        "This may lead to
+                        unauthorized access to sensitive data. This issue is extremely common in API-based applications
+                        because the server
+                        component usually does not fully track the client's state, and instead, relies more on
+                        parameters like object IDs, that
+                        are sent from the client to decide which objects to access.
+                        If hit by attackers, an organization could risk not only loss or manipulation of its data but
+                        also a full takeover of
+                        its system, the report warns.
+                        Developers are the first line of defense against this type of API attack as protection against
+                        the vulnerability needs
+                        to be put in place at the code level. Object level authorization needs to be set up in the code
+                        to make sure only a user
+                        with the correct permission can access and take action on a requested object, OWASP says.
+                        If developers forget to make sure API authorization and access control mechanisms are set up
+                        properly in an application,
+                        the vulnerability will leave the door open for attackers, the report says. It is important to
+                        get this right and check
+                        it during development because "access control detection is not typically amenable to automated
+                        static or dynamic
+                        testing."
+                        To illustrate how such an API breach could happen, the report offers the following scenario: "An
+                        e-commerce platform for
+                        online stores (shops) provides a listing page with the revenue charts for their hosted shops.
+                        Inspecting the browser
+                        requests, an attacker can identify the API endpoints used as a data source for those charts and
+                        their pattern
+                        /shops/{shopName}/revenue_data.json. Using another API endpoint, the attacker can get the list
+                        of all hosted shop names.
+                        With a simple script to manipulate the names in the list, replacing {shopName} in the URL, the
+                        attacker gains access to
+                        the sales data of thousands of ecommerce stores.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="b7" class="fenetrehidden"> 
+            <div class="d-flex">
+                <div class="d-flex w-50 m-2 justify-content-start">
+                    <button type="button" class="button-back " id="liveToastBtn2">
+                        <span class="button-front p-2"> share </span>
+                    </button>
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast6" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Sup'it</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            This article has been shared to your feed.
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex w-50 m-2 justify-content-end">
+                    <button  id="c7" type="button" class="btn " onclick="exempleb(this.id)" >
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <h2 class="tit-news fs-3">
+                VS Code Gets New JavaScript Debugger
+            </h2>
+            <div class=" row d-flex justify-content-around">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img class="im-news rounded" src="imagec/vescode.jpeg" alt="">
+                </div>
+                <div class="c-news col-md-8 pe-5 d-flex align-items-center">
+                    <pre class="paranews"> Microsoft's monthly update to its wildly popular open source, cross-platform
+                        Visual Studio Code editor has a new
+                        JavaScript debugger.
+                        Working with Node.js and Chrome, the debugger that has been in the works for months is now the
+                        default option in the
+                        June 2020 update, or VS Code 1.47.
+                        Features and functionality for the debugger as listed on its GitHub site include:
+                        • Debug child process and workers
+                        • Debug Node.js processes in the terminal
+                        • Profiling support
+                        • Easy npm script debugging
+                        • Automatic browser debugging
+                        • Instrumentation breakpoints
+                        • Better autocompletion in debug console
+                        • Return value interception
+                        • Top-Level await
+                        • Pretty-print minified sources
+                        • Support for Microsoft Edge and WebView2
+                        • Better sourcemap and breakpoint behavior
+                        • Copy values in call stack view
+                    </pre>
+                </div>
+            </div>
+        </div>
+        <div id="b8" class="fenetrehidden"> 
+            <div class="d-flex">
+                <div class="d-flex w-50 m-2 justify-content-start">
+                    <button type="button" class="button-back " id="liveToastBtn2">
+                        <span class="button-front p-2"> share </span>
+                    </button>
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast7" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="..." class="rounded me-2" alt="...">
+                            <strong class="me-auto">Sup'it</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            This article has been shared to your feed.
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex w-50 m-2 justify-content-end">
+                    <button  id="c8" type="button" class="btn " onclick="exempleb(this.id)" >
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            <h2 class="tit-news fs-3">SUP'COM Annual Forum - 23rd edition</h2>
+            
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-4 d-flex align-items-center">
+                    <img class="im-news rounded" src="imagec/forum.jpg" alt="">
+                </div>
+                <div class="c-news col-md-8 pe-5  d-flex align-items-center text-justify">
+                    <p class="paranews">It is an annual forum that took place this year. Its title was chosen about
+                        information safety In this forum, many
+                        well-known personalities were invited at the national and international levels, where the
+                        importance of information
+                        safety in our public life was addressed and its value as a field. Likewise, we find it important
+                        to talk about the
+                        activities of this forum, as we find many companies coming to search for students to work on
+                        topics of interest to this
+                        field.</p>
+                </div>
+            </div>    
+        </div>
+    </section>
+<!-- Footer -->
+<!-- Footer -->
+    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+        <stop stop-color="rgba(33, 37, 41, 1)" offset="0%"></stop>
+        <stop stop-color="rgba(33, 37, 41, 1)" offset="100%"></stop>
+    </linearGradient>
+</defs>
+<path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+    d="M0,0L34.3,11.7C68.6,23,137,47,206,48.3C274.3,50,343,30,411,18.3C480,7,549,3,617,3.3C685.7,3,754,7,823,20C891.4,33,960,57,1029,70C1097.1,83,1166,87,1234,73.3C1302.9,60,1371,30,1440,20C1508.6,10,1577,20,1646,23.3C1714.3,27,1783,23,1851,31.7C1920,40,1989,60,2057,68.3C2125.7,77,2194,73,2263,60C2331.4,47,2400,23,2469,15C2537.1,7,2606,13,2674,26.7C2742.9,40,2811,60,2880,71.7C2948.6,83,3017,87,3086,78.3C3154.3,70,3223,50,3291,46.7C3360,43,3429,57,3497,65C3565.7,73,3634,77,3703,71.7C3771.4,67,3840,53,3909,40C3977.1,27,4046,13,4114,18.3C4182.9,23,4251,47,4320,46.7C4388.6,47,4457,23,4526,21.7C4594.3,20,4663,40,4731,41.7C4800,43,4869,27,4903,18.3L4937.1,10L4937.1,100L4902.9,100C4868.6,100,4800,100,4731,100C4662.9,100,4594,100,4526,100C4457.1,100,4389,100,4320,100C4251.4,100,4183,100,4114,100C4045.7,100,3977,100,3909,100C3840,100,3771,100,3703,100C3634.3,100,3566,100,3497,100C3428.6,100,3360,100,3291,100C3222.9,100,3154,100,3086,100C3017.1,100,2949,100,2880,100C2811.4,100,2743,100,2674,100C2605.7,100,2537,100,2469,100C2400,100,2331,100,2263,100C2194.3,100,2126,100,2057,100C1988.6,100,1920,100,1851,100C1782.9,100,1714,100,1646,100C1577.1,100,1509,100,1440,100C1371.4,100,1303,100,1234,100C1165.7,100,1097,100,1029,100C960,100,891,100,823,100C754.3,100,686,100,617,100C548.6,100,480,100,411,100C342.9,100,274,100,206,100C137.1,100,69,100,34,100L0,100Z">
+</path>
+    </svg>
+    <footer class="w-100 py-4 flex-shrink-0">
+<div data-aos="fade-zoom-in" class="container py-4">
+    <div class="row gy-4 gx-5">
+        <div class="col-lg-4 col-md-6">
+            <h5 class="h1 text-white">SUP’IT.</h5>
+            <p class="small text-muted">We stand for efficiency, professionalism and success.</p>
+            <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. </p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+            <h5 class="text-white mb-3">Quick links</h5>
+            <ul class="list-unstyled text-muted">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="FAQ.html">F.A.Q</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+            <h5 class="text-white mb-3">Social Media</h5>
+            <ul class="list-unstyled text-muted">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i>&nbsp;Instagram</a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i>&nbsp;Twitter</a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i>&nbsp;Linkedin</a></li>
+
+
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <h5 class="text-white mb-3">Newsletter</h5>
+            <p class="small text-muted">Subscribe to our newsletter to receive any recent article.</p>
+            <form action="" id="form-hide">
+                <div class="input-group " id="input-group">
+                    <input class="form-control bg-none border-dark" type="email"
+                        placeholder="Type your email address" aria-describedby="button-addon2">
+                    <button class="btn btn-light" id="liveToastBtn" type="button" onclick="CollapseForm()"><i
+                            class="fas fa-paper-plane"></i></button>
+
+
+                </div>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <strong class="me-auto">SUP’IT</strong>
+                            <small>1 mins ago</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            Hello, You're now subscribed to SUP’IT.
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+    </footer>
+<!-- footer -->
+<!-- footer -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+    <script src="news.js"></script>
+</body>
+
+</html>

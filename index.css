@@ -1,0 +1,439 @@
+:root{
+    --blue: #14213d;
+    --black: #000000 ;
+    --beige: #f7f5f1;
+    --gold: #fca311;
+    --grey: #2a2a2a;
+}
+body{
+    background-image: url('images/bg.svg');
+    background-repeat: repeat;
+
+}
+@font-face{
+    font-family: "Cero";
+    src: url(Cero.woff) format("woff")
+}
+/* aziz-start */
+#numbers{font-family:"Cero";
+    font-weight: 600;
+
+}
+#numbers .card{
+    border: 0.1em var(--beige) solid ;
+    border-radius: 1em;
+    background: rgb(247, 245, 241,0.2);
+    backdrop-filter: blur(0.3em);
+    box-shadow: 1em 1em 56px 0em rgba(20, 33, 61,0.3) ;
+}
+
+#numbers .row{
+    margin: 0 2em 0 2em;
+}      
+#numbers span{
+    font-style: var(--blue);
+    font-size: x-large;}
+
+/* //////////////////////////////////////////////Louay///////////////////////////////////////////////////////////////// */
+.front-section {
+    height: 80vh
+}
+
+#link-deco-off {
+    text-decoration: none;
+    padding: 0;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 80vh;
+}
+
+
+.button-back {
+    border-radius: 10px;
+    background-color: #14213d;
+    width: max-content;
+    height: max-content;
+    border: none;
+    padding:0;
+    font-family: "Cero";
+}
+
+#button-front {
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    transform: translateY(-4px);
+    transition: transform 400ms;
+    border-color: #14213d;
+    color: #14213d;
+    border-width: 0.15vw;
+    font-weight: 800;
+}
+
+#button-front:hover {
+    transform: translateY(0px);
+    transition: transform 80ms;
+}
+
+
+.front-font {
+    font-family: "Cero";
+    font-weight: 800;
+    font-size: 5vw;
+    color: var(--blue);
+    width: max-content;
+
+}
+
+.switch {
+    margin-left: 30%;
+}
+
+.typercontainer {
+    width: 40%
+}
+
+.typer {
+
+    width: max-content;
+    overflow: hidden;
+    border-right: solid;
+    white-space: nowrap;
+    color: var(--gold);
+    animation: typing 3s steps(30, end) forwards,
+        blink-caret 1s step-end infinite;
+}
+
+
+.front-subtitle {
+    font-family: 'Cero';
+    color: var(--grey);
+    width: 100%;}
+
+@keyframes typing {
+    0% {
+        width: 0
+    }
+
+    40% {
+        width: 100%
+    }
+
+    80% {
+        width: 100%
+    }
+
+    90% {
+        width: 0%
+    }
+
+    100% {
+        width: 0%
+    }
+}
+
+@keyframes blink-caret { 
+    0%{
+        border-color: transparent
+    }
+
+    50% {
+        border-color: var(--blue);
+        border-width: 4px;
+        border-radius: 4.1px;
+
+    }
+}
+
+/* //////////////////////////////////////////////Louay///////////////////////////////////////////////////////////////// */
+.nav-link{
+    color:var(--blue);
+    font-family: "Cero";
+    font-weight: 700;
+    margin: 0 1vw 0 1vw;
+    border-bottom:1vw white solid;
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+}
+
+.nav-link:hover{
+    border-bottom:1vw var(--gold) solid;
+    border-width: 0.3vw;
+    border-radius: 0.5vw;
+    color:var(--gold);}
+
+#qualities .card{
+    border: 0.1em var(--beige) solid ;
+    border-radius: 1em;
+    background: rgb(247, 245, 241,0.2);
+    backdrop-filter: blur(0.3em);
+    box-shadow: 1em 1em 56px 0em rgba(20, 33, 61,0.3) ;
+
+}
+
+#qualities h2 span, .titso h1{
+    font-family: "Cero";
+    font-weight: 700;
+}
+
+#qualities .card-title,.service-text h4{
+    font-family: "Cero";
+    font-weight: 600;
+}
+#qualities .card-text,#servicee .service-item .service-text p{
+    color:var(--grey);
+}
+#qualities span:last-child{
+    color:var(--gold);
+}
+#qualities .row{
+    margin: 0 1vw 0 1vw;
+}
+
+#qualities ,svg{
+    position: relative;
+}
+.qualities{
+    background: rgba(42, 42, 42, 0.2);
+}
+#qualities .card-img-top {
+    width: 30%;
+    filter:drop-shadow(0em 0em 1em rgba(20, 33, 61, 0.221)) saturate(40%);
+
+}   
+
+/*chouaib code start*/
+
+#n-sec .news {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: inherit;
+    border-radius: 25px;
+}
+
+#n-sec .slid_news {
+    padding-bottom: 32.8%;
+    position: relative;
+}
+
+#n-sec .liste_news {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+#n-sec .item_news {
+    flex: 1 1 0%;
+    align-items: flex-start;
+    width: 35px;
+    height: 100%;
+    position: relative;
+    transition: all .3s;
+    cursor: grab;
+    background-color: #111;
+    background-image: linear-gradient(0deg, transparent, #000);
+    box-shadow: 0 0 10px 5px rgb(0 0 0 / 70%);
+}
+
+#n-sec .expanded {
+    flex-basis: 56.25%;
+}
+#n-sec{background-color:rgba(42, 42, 42,0.2);}
+#n-sec img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+    max-width: 100%;
+    opacity: 0.8;
+    transition: opacity .3s;
+}
+
+#n-sec .bottom_title {
+    padding: 1rem;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #ffff;
+    font-family: "Cero";
+    font-weight: 500;
+}
+
+#n-sec .bottom_title_text {
+    opacity: .2;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+}
+
+#n-sec .link-slide {
+    text-decoration: none;
+    color: var(--gold);
+    cursor: pointer;
+}
+.more{text-decoration: none;
+color: var(--blue); 
+opacity: 0.5;
+font-family: "Roboto";
+font-weight: 600;}
+.more:hover{text-decoration: none;
+    color: var(--gold);}
+#n-sec .image-slide:hover div {
+    opacity: 1;
+    transition: ease-in 1.5s;
+}
+
+
+/*chouaib code end*/
+
+.grd {
+    background-color: #fff8e1;
+    padding: 30px;
+    text-align: center;
+}
+
+.para {
+    font-weight: 400;
+}
+
+/* ==========================================
+    Footer
+  ========================================== */
+
+
+#foot .text-small {
+    font-size: 0.9rem;
+}
+
+.list-unstyled li a{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#foot a:hover,
+#foot a:focus {
+    text-decoration: none;
+}
+
+
+footer {
+    background: #212529;
+}
+
+footer h5{font-family: "Cero";}
+/* ==========================================
+  ==========================================*/
+
+/*** Service ***/
+
+#servicee .service-item {
+    position: relative;
+    text-align: center;
+        border: 0.1em var(--beige) solid ;
+    border-radius: 1em;
+    background: rgb(247, 245, 241,0.2);
+    backdrop-filter: blur(0.3em);
+    box-shadow: 1em 1em 56px 0em rgba(20, 33, 61,0.3) ;
+}
+
+#servicee .service-item .service-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#servicee .service-item .service-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: .3s;
+    z-index: -1;
+}
+.service-img {opacity: 0.4;}
+#servicee .service-item:hover .service-img img {
+    transform: scale(1);
+}
+
+#servicee .service-item .service-text {
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+#servicee .service-item:hover .service-text {
+    background: rgba(20, 33, 61, 0.144);
+}
+
+#servicee .service-item .service-text h4,
+#servicee .service-item .service-text p {
+    transition: .3;
+}
+
+#servicee .service-item:hover  .service-text h4,#servicee .service-item:hover .service-text p{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+
+
+#servicee .service-item .service-text .btn-square {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    transition: .5s;
+}
+
+#servicee .service-item:hover .service-text .btn-square {
+    background: var(--light);
+}
+
+#servicee .service-item .service-text .btn {
+    width: 31px;
+    height: 31px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--dark);
+    background: var(--light);
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .3s;
+}
+
+#servicee .service-item:hover .service-text .btn {
+    width: 112px;
+}
+
+/* ==========================================
+  ==========================================*/
+
+
+/* aziz-end */
+
